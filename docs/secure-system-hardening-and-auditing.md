@@ -1,5 +1,7 @@
 # Secure System Hardening And Auditing
 
+[← Repository overview](../README.md) · [Original PDF report](secure-system-hardening-and-auditing.pdf)
+
 > Portfolio write-up derived from the original university lab report provided by Smail Mersad. The original report contains screenshots; this GitHub edition uses only results from that report and does not invent additional assets.
 
 **Academic context:** Amar Telidji University, Computer Science / Cybersecurity Engineering, 2025-2026.

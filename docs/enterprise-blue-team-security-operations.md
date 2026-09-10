@@ -1,5 +1,7 @@
 # Enterprise Blue Team Security Operations
 
+[← Repository overview](../README.md) · [Original PDF report](enterprise-blue-team-security-operations.pdf)
+
 > Portfolio write-up derived from the original university cybersecurity lab report provided by Smail Mersad. The original report contains screenshots and UI evidence; this GitHub edition uses only results from that report and does not invent additional assets.
 
 **Academic context:** Amar Telidji University, Computer Science / Cybersecurity Engineering, 2025-2026.

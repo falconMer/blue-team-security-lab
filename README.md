@@ -18,10 +18,22 @@ Hands-on defensive security work covering network hardening, IDS/IPS, centralize
 
 ## Included academic work
 
-| # | Lab | Portfolio write-up |
-|---:|---|---|
-| 1 | Enterprise Blue Team Security Operations | [`docs/enterprise-blue-team-security-operations.md`](docs/enterprise-blue-team-security-operations.md) |
-| 2 | Secure System Hardening & Auditing | [`docs/secure-system-hardening-and-auditing.md`](docs/secure-system-hardening-and-auditing.md) |
+| # | Lab | Portfolio write-up | Original PDF |
+|---:|---|---|---|
+| 1 | Enterprise Blue Team Security Operations | [`docs/enterprise-blue-team-security-operations.md`](docs/enterprise-blue-team-security-operations.md) | [PDF report](docs/enterprise-blue-team-security-operations.pdf) |
+| 2 | Secure System Hardening & Auditing | [`docs/secure-system-hardening-and-auditing.md`](docs/secure-system-hardening-and-auditing.md) | [PDF report](docs/secure-system-hardening-and-auditing.pdf) |
+
+## Repository structure
+
+```text
+.
+├── README.md
+└── docs/
+    ├── *.md   # GitHub-friendly lab write-ups
+    └── *.pdf  # Original lab reports (privacy-redacted where noted)
+```
+
+The Markdown write-ups and supplied PDF reports form the complete available portfolio evidence. Screenshots, diagrams, and tool output are preserved inside the reports; standalone source code, captures, notebooks, and other artifacts are included only if supplied.
 
 ## Evidence policy
 
