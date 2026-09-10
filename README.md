@@ -19,21 +19,21 @@ Hands-on defensive security work covering network hardening, IDS/IPS, centralize
 
 | # | Lab | Report |
 |---:|---|---|
-| 1 | Enterprise Blue Team Security Operations | [`docs/enterprise-blue-team-security-operations.pdf`](docs/enterprise-blue-team-security-operations.pdf) |
-| 2 | Secure System Hardening And Auditing | [`docs/secure-system-hardening-and-auditing.pdf`](docs/secure-system-hardening-and-auditing.pdf) |
+| 1 | Enterprise Blue Team Security Operations | [`docs/enterprise-blue-team-security-operations.md`](docs/enterprise-blue-team-security-operations.md) |
+| 2 | Secure System Hardening And Auditing | [`docs/secure-system-hardening-and-auditing.md`](docs/secure-system-hardening-and-auditing.md) |
 
 ## Repository structure
 
 ```text
 .
 ├── README.md
-├── docs/        # Original academic lab reports
+├── docs/        # GitHub text editions of the academic lab reports
 └── src/         # Add original code/configs/scripts here when available
 ```
 
 ## Notes
 
-The reports document the work actually completed in the university labs. The `src/` directory is intentionally left as a place to add original source code, configuration files, packet captures, notebooks, or scripts where those artifacts are available. No source code has been fabricated from the reports.
+The reports document the work actually completed in the university labs. For GitHub portability, the reports are included as searchable Markdown text editions; the original PDF screenshots and figures are not embedded in these conversions. The `src/` directory is intentionally left as a place to add original source code, configuration files, packet captures, notebooks, or scripts where those artifacts are available. No source code has been fabricated from the reports.
 
 ## Responsible use
 
