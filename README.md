@@ -1,39 +1,31 @@
 # Enterprise Blue Team & Security Operations Lab
 
-Hands-on defensive security work covering network hardening, IDS/IPS, centralized logging, incident handling, and security automation.
+Hands-on defensive security work covering network hardening, IDS/IPS, centralized logging, incident handling, Windows telemetry, and security automation.
 
-> **Academic context:** Completed as part of Computer Science / Cybersecurity engineering coursework at Amar Telidji University, Laghouat (2025-2026). This repository is intended as a technical portfolio of controlled university lab work.
+> **Academic context:** Computer Science / Cybersecurity engineering coursework at Amar Telidji University, Laghouat (2025-2026).
 
 ## What this repository demonstrates
 
-- Built a layered firewall/security gateway with OPNsense, Suricata IDS/IPS, Zenarmor, and ClamAV.
-- Centralized Windows logs and investigated authentication and privilege-related events in the ELK Stack.
-- Practiced incident case management with TheHive and modeled observable enrichment/analysis with Shuffle and Cortex.
-- Hardened a Linux server with SSH keys, least privilege, ACLs, password policies, UFW, Fail2Ban, logging, and Lynis auditing.
+- Built a layered OPNsense security gateway with Suricata IDS/IPS, Zenarmor, and ClamAV.
+- Centralized system and Windows logs with the ELK Stack and investigated authentication/privilege-related events.
+- Used TheHive for incident case management and modeled observable-analysis automation with Shuffle and Cortex.
+- Hardened an Ubuntu server with SSH keys, least privilege, Unix permissions/ACLs, password policy, UFW, Fail2Ban, logging, and Lynis.
+- Performed practical reconnaissance, password-security, encryption, steganography, and hidden-service analysis exercises.
 
 ## Tools & technologies
 
-`OPNsense` · `Suricata` · `Zenarmor` · `ClamAV` · `ELK Stack` · `NXLog` · `TheHive` · `Shuffle` · `Cortex` · `Nmap` · `UFW` · `Fail2Ban` · `Lynis` · `Linux`
+`OPNsense` · `Suricata` · `Zenarmor` · `ClamAV` · `Elasticsearch` · `Logstash` · `Kibana` · `NXLog` · `TheHive` · `Shuffle` · `Cortex` · `Nmap` · `UFW` · `Fail2Ban` · `Lynis` · `Linux`
 
-## Included lab reports
+## Included academic work
 
-| # | Lab | Report |
+| # | Lab | Portfolio write-up |
 |---:|---|---|
 | 1 | Enterprise Blue Team Security Operations | [`docs/enterprise-blue-team-security-operations.md`](docs/enterprise-blue-team-security-operations.md) |
-| 2 | Secure System Hardening And Auditing | [`docs/secure-system-hardening-and-auditing.md`](docs/secure-system-hardening-and-auditing.md) |
+| 2 | Secure System Hardening & Auditing | [`docs/secure-system-hardening-and-auditing.md`](docs/secure-system-hardening-and-auditing.md) |
 
-## Repository structure
+## Evidence policy
 
-```text
-.
-├── README.md
-├── docs/        # GitHub text editions of the academic lab reports
-└── src/         # Add original code/configs/scripts here when available
-```
-
-## Notes
-
-The reports document the work actually completed in the university labs. For GitHub portability, the reports are included as searchable Markdown text editions; the original PDF screenshots and figures are not embedded in these conversions. The `src/` directory is intentionally left as a place to add original source code, configuration files, packet captures, notebooks, or scripts where those artifacts are available. No source code has been fabricated from the reports.
+This repository uses only the academic reports and evidence actually supplied for the portfolio. The original reports contain screenshots and tool output, but no additional screenshots, source files, configurations, packet captures, or results are claimed here unless they were present in the supplied work. The write-ups preserve negative and incomplete findings rather than inventing cleaner outcomes.
 
 ## Responsible use
 
